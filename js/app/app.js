@@ -1,3 +1,2 @@
-/**
- * Created by Milos on 23.10.2015.
- */
+//deklarisemo glavni modul AngularChromeEx...
+var myApp = angular.module("AngularChromeEx", []);
