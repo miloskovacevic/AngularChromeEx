@@ -22,7 +22,7 @@
         <h2>Has Links: </h2>
         <ul>
             <li ng-repeat="pageInfo in pageInfos">
-                <div>{{pageInfo.url}}</div>
+                <div><a href={{pageInfo.url}} target="_blank">{{pageInfo.url}}</a></div>
             </li>
         </ul>
     </div>

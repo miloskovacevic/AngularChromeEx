@@ -1,6 +1,6 @@
 myApp.controller("PageController", function ($scope) {
     $scope.message = "Angular Extension";
-
+    console.log("=======>>>>>TEST TEST TEST OVO IDE NA POPUP<<<<<========");
     chrome.tabs.query({'active': true}, function (tabs) {
            if(tabs.length > 0) {
                $scope.title = tabs[0].title;
